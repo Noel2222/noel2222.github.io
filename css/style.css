@@ -1,51 +1,16 @@
 <!DOCTYPE html>
 <head>
 <style>
-body 
-  color: Black;
-
-h1 
-  color: Blue;
+body {
+  background-color: lightblue;
 }
 </style>
 </head>
 <body>
 
-<h1>Tervehdys</h1>
+<h1>Hello World!</h1>
+
+<p>This page has a light blue background color!</p>
 
 </body>
-
-
-<!DOCTYPE html>
-
-<head>
-<style>
-h1 
-  text-decoration: overline;
-
-
-h2 
-  text-decoration: line-through;
-
-h3 
-  text-decoration: underline;
-
-
-p.ex 
-  text-decoration: overline underline;
-
-</style>
-</head>
-<body>
-
-<h1>Overline text decoration</h1>
-<h2>Viiva tekstin läpi</h2>
-<h3>Underline text decoration</h3>
-
-<p><strong>Note:</strong> It is not recommended to underline text that is not a link, as this often confuses 
-the reader.</p>
-
-</body>
-
-<p>Pari kuvaa tähän välii</p>
-<i class="fas fa-cloud" style="font-size:24px;"></i>
+</html>
