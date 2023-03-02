@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html land="en"
+      <head>
+<title>Zombie Smackdown Site</title>
+<meta charset="utf-8>
+<meta name="vievport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content=Zombie, Apocalypse, End Of humanity, Doomsday">
+<meta name="description" content="Kicking Zombie Tookus With Web Development">
+<link href="zombie.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Zombie are Coming!</h1>
+  </header>
+</body>
+</html>
