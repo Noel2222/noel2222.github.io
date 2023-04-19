@@ -1,0 +1,116 @@
+nav {
+  background-color: aqua;
+  color: orange;
+   padding: 10px;
+  font-size: 25px;
+   padding-left: 15px;
+  padding-right: 15px;
+  }
+  
+  span.title {
+    font-family: cursive;
+  }
+  
+  span.version {
+    font-size: 9px;
+    display: block;
+    position: relative;
+    top: -8px;
+    left: 5px;
+  }
+  
+  #body {
+    font-size: 18px;
+    text-align: center;
+  }
+
+.banner {
+background-color: #7000f0;
+color: orange;
+padding-top: 40px;
+padding-bottom: 14px;
+text-align: center;
+height: 300px;
+padding-top: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.banner--small {
+  height: 150px;
+}
+}
+nav span.title{
+  color: blue;
+  }
+  
+  .body{
+   background-color: green;
+  }
+  
+  footer,
+  #content {
+   text-align: left;
+  width: calc(100% - 30px) ;
+   margin: 50 px auto 0 auto;
+  }
+
+.float-right {
+float: right;
+}
+
+@media(max-width: 820px) {
+.float-right {
+  float: initial;
+  width: 100%
+  height: auto;
+}
+}
+  
+  footer,
+  .banner {
+   background-color: #075330;
+   margin-top: 40px;
+   font-size:14px;
+   text-align: center;
+  }
+  
+/* Permalink - use to edit and share */
+background: #308475;
+background: -moz-linear-gradient(top, #233852)
+background: -webkit-linear-gradient (top, )
+background: -linear-gradient (bottom, #234895 )
+filter: progid:DXImageTransform.Microsoft
+
+transition: font-size 0.5s ease-im-out;
+
+
+.banner--small {
+height: 150px;
+}
+}
+
+@media(min-width: 320px) {
+.float-right
+.float: initial;
+.transition: width 2s, height 4s;
+}
+
+
+footer {
+    margin-top: 40px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  
+  .bred {
+    border: 1px solid red;
+  }
+
+float-right {
+  width: 200px;
+  height: 200px;
+  float: right;
+}

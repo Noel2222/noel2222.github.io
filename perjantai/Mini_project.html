@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini project #3</title>
+</head>
+<body>
+    
+
+  <h1 id="moro"></h1>
+  <h2 id="morjes"></h2>
+
+    <script>
+        var age = prompt("Give me a number!")
+        console.log(age)
+        age = Number (age);
+        console.log(typeof(age))
+        if(age == 16) {
+        var age = document.getElementById("moro").innerHTML = "Have a great day!"
+        } else if(age == 18) {
+            document.getElementById("morjes").innerHTML = "Age is incorrect!"
+        }
+        
+
+    </script>
+
+
+</body>
+</html>
