@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.modal {
+  display: none;
+  position: fixed;
+}
+
+/* Modalin sisältö */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* Sulkemis nappi*/
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<h2>OOP Modal</h2>
+
+<!-- Avaa nappia painamalla modalin -->
+<button id="myBtn">Open Modal</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modalin teksti -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+</div>
+
+<script>
+
+var modal = document.getElementById("myModal");
+
+// Luo sen napin joka avaa modalin
+var btn = document.getElementById("myBtn");
+
+// Luo sen napin joka sulkee modalin
+var span = document.getElementsByClassName("close")[0];
+ 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// painamalla X nappia se sulkee modalin
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+
+</script>
+
+</body>
+</html>
