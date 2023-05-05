@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Fetch</h1>
+    
+
+    <script>
+
+        let Lebron = {}
+      // AJAX = Asynchronous JavaScript and XML
+
+       // console.log("Before")
+        fetch('https://v1.basketball.api-sports.io/status')
+        .then(function(response) {
+            return response.json()
+            console.log("Then #1")
+        })
+        .then(function(res) {
+            luke = res
+            console.log("Then #2")
+            const [player1, player2, player3, ...players] = basketball.players
+
+            console.log(player2)
+              console.log(Lebron)
+            basketball.players.forEach(function(url, index) {
+                console.log(index, url)
+            })
+        })
+         console.log("After")
+       /console.log("LEBRON JAMES", Lebron )
+
+    </script>
+
+
+</body>
+</html>
