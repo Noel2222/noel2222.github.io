@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+.modal {
+  display: none;
+  position: fixed;
+}
+
+/* Modalin sisältö */
+.modal-content {
+  background-color: greenyellow;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* Sulkemis nappi*/
+.close {
+  color: greenyellow;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+    <title>Noelin sivu</title>
+    <link src="stylesheet" href="style.css">
+
+<h1>Sivu</h1>
+
+<!-- Avaa nappia painamalla modalin -->
+<button id="myBtn">Avaa syötekenttä</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modalin teksti -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Sivun nimeksi on syötetty: Noelin sivu.</p>
+
+  </div>
+
+</div>
+
+<h1>Tärkeää!</h1>
+    <h3> Napin kanssa on ollut ongelmia, mutta jos olet jo aijemin syöttänyt sivun nimen, se tallentuu tämän sivun nimeksi </h3>
+
+    <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut debitis ullam qui quibusdam libero, incidunt excepturi laborum a dicta placeat nemo possimus eos ratione corporis quod magni ducimus hic quae.</h3>
+<script>
+
+var modal = document.getElementById("myModal");
+
+// Luo sen napin joka avaa modalin
+var btn = document.getElementById("myBtn");
+
+// Luo sen napin joka sulkee modalin
+var span = document.getElementsByClassName("close")[0];
+ 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// painamalla X nappia se sulkee modalin
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+
+</script>
+
+</body>
+</html>
